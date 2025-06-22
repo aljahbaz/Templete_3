@@ -1,0 +1,135 @@
+/* Fonts */
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #111111;
+}
+
+/* Colors */
+:root {
+  --main-red: #F0756C;
+  --main-blue: #4BA1A7;
+  --light-bg: #F5E9E9;
+  --gray: #777777;
+  --white: #ffffff;
+  --black: #111111;
+  --soft-gray: #C3C3C3;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #F5E9E9;
+  color: #111111;
+  border: 1px solid #F5E9E9;
+}
+
+.btn-primary:hover {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar-nav a.nav-link:hover {
+  color: var(--main-red) !important;
+}
+
+/* Headings */
+h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.display-1 {
+  font-size: calc(4rem + 3vw);
+  font-weight: 900;
+  line-height: 80%;
+}
+
+/* Background colors */
+.bg-gray {
+  background-color: #777777 !important;
+}
+
+.bg-yellow {
+  background-color: #EFEAEA !important;
+}
+
+.bg-green {
+  background-color: #F5F8F1 !important;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.page-link {
+  color: #111111;
+}
+
+.page-link:hover {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.page-link.active {
+  background-color: #F5E9E9;
+  color: #111111;
+}
+
+/* Accordion */
+.accordion-item {
+  background: #EFEAEA;
+}
+
+.accordion-button {
+  background: #EFEAEA;
+  font-family: "Work Sans", sans-serif;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
+}
+
+/* Testimonials */
+.testimonial-card {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.testimonial-card .postd {
+  color: #F0756C;
+}
+
+/* Paragraph helpers */
+.postf {
+  color: #777777;
+}
+
+.postg {
+  color: #C3C3C3;
+}
+
+/* Line height and spacing */
+.lh-small {
+  line-height: 80%;
+}
+
+.ls-4 {
+  letter-spacing: 0.2rem;
+}
+
+.p-6 {
+  padding: 4rem !important;
+}
+
+/* Custom container width */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
